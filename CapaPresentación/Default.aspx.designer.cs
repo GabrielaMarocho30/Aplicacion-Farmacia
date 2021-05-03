@@ -7,7 +7,7 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace CapaPresentación
+namespace CapaPresentacion
 {
 
 
@@ -33,13 +33,13 @@ namespace CapaPresentación
         protected global::System.Web.UI.WebControls.Button btnTecnico;
 
         /// <summary>
-        /// Control btnQF.
+        /// Control btnCliente.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnQF;
+        protected global::System.Web.UI.WebControls.Button btnCliente;
 
         /// <summary>
         /// Control btnLocal.
@@ -60,12 +60,30 @@ namespace CapaPresentación
         protected global::System.Web.UI.WebControls.Button btnProducto;
 
         /// <summary>
-        /// Control Button1.
+        /// Control btnCaja.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button btnCaja;
+
+        /// <summary>
+        /// Control btnQuimicoF.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnQuimicoF;
+
+        /// <summary>
+        /// Control btnProveedor.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnProveedor;
     }
 }

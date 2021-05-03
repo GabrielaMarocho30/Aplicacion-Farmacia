@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace CapaPresentación
+namespace CapaPresentacion
 {
     public partial class Default : System.Web.UI.Page
     {
@@ -16,13 +16,38 @@ namespace CapaPresentación
 
         protected void btnTecnico_Click(object sender, EventArgs e)
         {
-            // Llamar al formulario del tecnico
-            Response.Redirect("WebForm1.aspx");
+            // LLamar al fromulario del técnico
+            Response.Redirect("fmrWebTecnico.aspx");
+        }
+
+        protected void btnCliente_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("fmrWebCliente.aspx");
+        }
+
+        protected void btnLocal_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Local.aspx");
         }
 
         protected void btnProducto_Click(object sender, EventArgs e)
         {
             Response.Redirect("Producto.aspx");
+        }
+
+        protected void btnCaja_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Caja.aspx");
+        }
+
+        protected void btnQuimicoF_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("fmrWebQuimicoF.aspx");
+        }
+
+        protected void btnProveedor_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Proveedor.aspx");
         }
     }
 }

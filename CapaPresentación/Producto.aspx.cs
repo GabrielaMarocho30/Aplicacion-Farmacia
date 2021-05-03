@@ -47,26 +47,31 @@ namespace CapaPresentación
                 producto1.FechaVencimiento = fechaVencimiento;
                 producto1.FechaFabricación = fechaFabricacion;
                 // Enviar mensaje de conformidad
-                Response.Write("Se ha agregado los atributos al objeto");
+                lblEscribir.Text = "Se ha agregado los atributos al objeto";
             }
 
         }
 
         protected void btnEscribir_Click(object sender, EventArgs e)
         {
-            Response.Write("Nombre del producto: " + producto1.NombreProducto + "<br>Código: " + producto1.Codigo +
+            lblEscribir.Text = "Nombre del producto: " + producto1.NombreProducto + "<br>Código: " + producto1.Codigo +
                 "<br>Precio: " + producto1.Precio + "<br>Unidades Disponibles: " + producto1.UnidadesDisponibles + "<br>Tipo: " + producto1.Tipo +
-                "<br>Fecha de Vencimiento: " + producto1.FechaVencimiento + "<br>Fecha de Fabricación: " + producto1.FechaFabricación );
+                "<br>Fecha de Vencimiento: " + producto1.FechaVencimiento + "<br>Fecha de Fabricación: " + producto1.FechaFabricación ;
         }
 
         protected void btnCurar_Click(object sender, EventArgs e)
         {
-            Response.Write(producto1.Curar());
+            lblRespuesta.Text = "Curar:<br>" + producto1.Curar();
         }
 
         protected void btnCaducar_Click(object sender, EventArgs e)
         {
-            Response.Write(producto1.Caducar());
+            lblRespuesta.Text = "Caducar:<br>" + producto1.Caducar();
+        }
+
+        protected void btnRegresar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
         }
     }
 }

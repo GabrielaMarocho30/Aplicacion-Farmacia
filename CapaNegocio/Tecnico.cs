@@ -8,34 +8,32 @@ namespace CapaNegocio
 {
     public class Tecnico
     {
-        // Definir atributos 
+        //Atributos
         private string apellidos;
         private string nombres;
         private string experienciaLaboral;
         private string estudios;
+        private string dni;
         private string domicilio;
-
-        // Propiedades como parte de clase que permite acceder a los atributos
-
+        //Propiedades: Parte de la clase que permite acceder a los atributos
         public string Apellidos { get => apellidos; set => apellidos = value; }
         public string Nombres { get => nombres; set => nombres = value; }
         public string ExperienciaLaboral { get => experienciaLaboral; set => experienciaLaboral = value; }
         public string Estudios { get => estudios; set => estudios = value; }
+        public string Dni { get => dni; set => dni = value; }
         public string Domicilio { get => domicilio; set => domicilio = value; }
-
-        // Metodos
+        //Metodos
         public string ControlarVentas()
         {
-            return "Metodo Controlar Ventas no está implementado";
+            return "El método Controlar Ventas no está implementado";
         }
         public string AtenderVentas()
         {
-            return "Metodo Atender Ventas, no está implementado";
+            return "El método Atender Ventas no está implementado";
         }
         public double BalanceDiario()
         {
             return 0;
         }
-        
     }
 }
