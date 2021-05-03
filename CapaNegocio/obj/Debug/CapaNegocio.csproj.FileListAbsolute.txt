@@ -1,0 +1,6 @@
+C:\Users\karen\source\repos\Sistema Farmacia\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\karen\source\repos\Sistema Farmacia\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\karen\source\repos\Sistema Farmacia\CapaNegocio\obj\Debug\CapaNegocio.csprojAssemblyReference.cache
+C:\Users\karen\source\repos\Sistema Farmacia\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\karen\source\repos\Sistema Farmacia\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\karen\source\repos\Sistema Farmacia\CapaNegocio\obj\Debug\CapaNegocio.pdb
